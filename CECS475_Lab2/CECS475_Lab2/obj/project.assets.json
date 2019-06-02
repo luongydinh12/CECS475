@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dinhluong\\.nuget\\packages\\": {},
+    "C:\\Users\\Dinh Luong\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dinhluong\\source\\repos\\CECS475_Lab2\\CECS475_Lab2\\CECS475_Lab2.csproj",
+      "projectUniqueName": "C:\\Users\\Dinh Luong\\Downloads\\GitHub\\CECS475\\CECS475_Lab2\\CECS475_Lab2\\CECS475_Lab2.csproj",
       "projectName": "CECS475_Lab2",
-      "projectPath": "C:\\Users\\dinhluong\\source\\repos\\CECS475_Lab2\\CECS475_Lab2\\CECS475_Lab2.csproj",
-      "packagesPath": "C:\\Users\\dinhluong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dinhluong\\source\\repos\\CECS475_Lab2\\CECS475_Lab2\\obj\\",
+      "projectPath": "C:\\Users\\Dinh Luong\\Downloads\\GitHub\\CECS475\\CECS475_Lab2\\CECS475_Lab2\\CECS475_Lab2.csproj",
+      "packagesPath": "C:\\Users\\Dinh Luong\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dinh Luong\\Downloads\\GitHub\\CECS475\\CECS475_Lab2\\CECS475_Lab2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dinhluong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dinh Luong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

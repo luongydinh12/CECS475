@@ -1,0 +1,11 @@
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab2\CECS475_Lab2\bin\Debug\netcoreapp2.1\CECS475_Lab2.deps.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab2\CECS475_Lab2\bin\Debug\netcoreapp2.1\CECS475_Lab2.runtimeconfig.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab2\CECS475_Lab2\bin\Debug\netcoreapp2.1\CECS475_Lab2.runtimeconfig.dev.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab2\CECS475_Lab2\bin\Debug\netcoreapp2.1\CECS475_Lab2.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab2\CECS475_Lab2\bin\Debug\netcoreapp2.1\CECS475_Lab2.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab2\CECS475_Lab2\obj\Debug\netcoreapp2.1\CECS475_Lab2.csprojAssemblyReference.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab2\CECS475_Lab2\obj\Debug\netcoreapp2.1\CECS475_Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab2\CECS475_Lab2\obj\Debug\netcoreapp2.1\CECS475_Lab2.AssemblyInfoInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab2\CECS475_Lab2\obj\Debug\netcoreapp2.1\CECS475_Lab2.AssemblyInfo.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab2\CECS475_Lab2\obj\Debug\netcoreapp2.1\CECS475_Lab2.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab2\CECS475_Lab2\obj\Debug\netcoreapp2.1\CECS475_Lab2.pdb

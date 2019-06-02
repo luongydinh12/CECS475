@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 
 namespace CECS475_Lab2
@@ -11,19 +9,31 @@ namespace CECS475_Lab2
     class Stock
     {
         // Eventhandler to check thresholds.
+        public event EventHandler<ThresholdEventArgs> OnStockThreshold;
 
         //Name of our stock.
-        private string Name;
+        private string _name;
         //Starting value of the stock.
-        private int InitialValue;
+        private int _initialValue;
         //Max change of the stock that is possible.
-        private int maxChange;
+        private int _maxChange;
         //Threshold value where we notify subscribers to the event.
-        private int threshold;
+        private int _threshold;
         //Amount of changes the stock goes through.
-        private int changes;
+        private int _changes;
         //Current value of the stock.
-        private int currentValue;
+        private int _currentValue;
+
+        /// <summary>
+        /// Set and Get Methods for each private members
+        /// </summary>
+        public string Name { get => _name; set => _name = value; }
+        public int InitialValue { get => _initialValue; set => _initialValue = value; }
+        public int MaxChange { get => _maxChange; set => _maxChange = value; }
+        public int Threshold { get => _threshold; set => _threshold = value; }
+        public int Changes { get => _changes; set => _changes = value; }
+        public int CurrentValue { get => _currentValue; set => _currentValue = value; }
+
 
         /// <summary>
         /// Initalizer for stock variables.
@@ -32,46 +42,18 @@ namespace CECS475_Lab2
         /// <param name="startingValue"> Starting value of the stock.</param>
         /// <param name="maxchange">Max change of the stock allowed.</param>
         /// <param name="threshold">threshold value to notify subscribers.</param>
-        /// 
-        public string NameMethod
-        {
-            get { return Name; }
-            set { Name = value; }
-        }
-        public int InitialValueMethod
-        {
-            get { return InitialValue; }
-            set { InitialValue = value; }
-        }
-        public int maxChangeMethod
-        {
-            get { return maxChange; }
-            set { maxChange = value; }
-        }
-        public int thresholdMethod
-        {
-            get { return threshold; }
-            set { threshold = value; }
-        }
-        public int changesMethod
-        {
-            get { return changes; }
-            set { changes = value; }
-        }
-        public int currentValueMethod
-        {
-            get { return currentValue; }
-            set { currentValue = value; }
-        }
         public Stock(string name, int startingValue, int maxchange, int threshold)
         {
-
+            _name = name;
+            _initialValue = startingValue;
+            _maxChange = maxchange;
+            _threshold = threshold;
+            _changes = 0;
+            _currentValue = startingValue;
 
             ThreadStart childref = new ThreadStart(Activate);
             Thread childThread = new Thread(childref);
             childThread.Start();
-
-
         }
 
         /// <summary>
@@ -85,6 +67,7 @@ namespace CECS475_Lab2
                 //sleep thread for 1/2 a second.
                 Thread.Sleep(500);
                 //call function to change stocks value.
+                ChangeStockValue();
             }
         }
 
@@ -92,11 +75,19 @@ namespace CECS475_Lab2
         /// Method to change a stock's value.
         /// </summary>
         private void ChangeStockValue()
-        {      // Random the stock value
-               //Check the threshold
-               //Greater than Threshold then raise the event
+        {
+            // Random the stock value and increase the number of changes
+            Random newRand = new Random();
+            _currentValue += newRand.Next(0, MaxChange);
+            _changes++;
 
+            //Check the threshold
+            //Greater than threshold then raise the event
+            if ((CurrentValue - InitialValue) > Threshold)
+            {
+                OnStockThreshold?.Invoke(this, new ThresholdEventArgs(Name, InitialValue, CurrentValue, Changes));
+            }
         }
     }
 }
-}
+
