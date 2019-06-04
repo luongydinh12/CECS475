@@ -4,7 +4,6 @@
  */
 
 using System;
-using System.IO;
 
 /// <summary>
 /// Program Description:
@@ -23,26 +22,6 @@ namespace CECS475_Lab2
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            // Get the path for the txt file to be saved to
-            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-
-            // Write the title for each columns to the console and txt file
-            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, "stocks.txt"), true))
-            {
-                outputFile.WriteLine("Date and Time".PadRight(25)
-                            + "Broker".PadRight(15)
-                            + "Stock".PadRight(15)
-                            + "Initial Value".PadRight(15)
-                            + "Current Value".PadRight(15)
-                            + "Changes".PadRight(15));
-            }
-            Console.WriteLine("Date and Time".PadRight(25)
-                            + "Broker".PadRight(15)
-                            + "Stock".PadRight(15)
-                            + "Initial Value".PadRight(15)
-                            + "Current Value".PadRight(15)
-                            + "Changes".PadRight(15));
-
             Stock stock1 = new Stock("Technology", 160, 5, 15);
             Stock stock2 = new Stock("Retail", 30, 2, 6);
             Stock stock3 = new Stock("Banking", 90, 4, 10);
