@@ -1,0 +1,16 @@
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\bin\Release\CECS475_Lab3.exe.config
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\bin\Release\CECS475_Lab3.exe
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\bin\Release\CECS475_Lab3.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\CECS475_Lab3.csprojAssemblyReference.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\MainWindow.g.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\App.g.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\CECS475_Lab3_MarkupCompile.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\CECS475_Lab3_MarkupCompile.lref
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\MainWindow.baml
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\CECS475_Lab3.g.resources
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\CECS475_Lab3.Properties.Resources.resources
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\CECS475_Lab3.csproj.GenerateResource.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\CECS475_Lab3.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\CECS475_Lab3.exe
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3\CECS475_Lab3\obj\Release\CECS475_Lab3.pdb

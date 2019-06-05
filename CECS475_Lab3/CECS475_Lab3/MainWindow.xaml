@@ -26,17 +26,19 @@
         </Grid.ColumnDefinitions>
 
         <Label Grid.Row="0" Grid.Column="0" Content="Number - 1 : " HorizontalContentAlignment="Right"></Label>
-        <TextBox Grid.Row="0" Grid.Column="1" Name="txtNumb1" Margin="5" Text="{Binding Path=Number1}"></TextBox>
+        <TextBox Grid.Row="0" Grid.Column="1" Name="txtNumb1" Margin="5" Text="{Binding Path=Number1}"/>
 
         <Label Grid.Row="1" Grid.Column="0" Content="Number - 2 : " HorizontalContentAlignment="Right"></Label>
-        <TextBox Grid.Row="1" Grid.Column="1" Name="txtNumb2"  Margin="5" Text="{Binding Path=Number2}"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" Name="txtNumb2"  Margin="5" Text="{Binding Path=Number2}"/>
 
 
-        <Button Grid.Row="2" Grid.Column="1" Margin="5" Content="SUM" Command="{Binding Path=MyCommand}">
+        <Button Grid.Row="3" Margin="5" Content="+" Command="{Binding Path=MyCommand}"/>
 
-        </Button>
+        <Label Grid.Row="2" Grid.Column="0" Content="Result : " HorizontalContentAlignment="Right"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Margin="5,4,5,6" Text="{Binding Path=Result, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <Button Grid.Row="3" Margin="5" Content="-" Command="{Binding MyCommand2}" Grid.Column="1"/>
+        <Button Grid.Row="4" Margin="5" Content="*" Command="{Binding MyCommand3}"/>
+        <Button Grid.Row="4" Margin="5" Content="/" Command="{Binding MyCommand4}" Grid.Column="1"/>
 
-        <Label Grid.Row="3" Grid.Column="0" Content="Sum : " HorizontalContentAlignment="Right"></Label>
-        <TextBox Grid.Row="3" Grid.Column="1" Margin="5" Text="{Binding Path=NumberSum, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
     </Grid>
 </Window>
