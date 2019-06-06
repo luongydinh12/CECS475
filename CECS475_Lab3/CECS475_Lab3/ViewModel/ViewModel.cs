@@ -4,9 +4,10 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using System.Windows.Input;
 using CECS475_Lab3.Command;
-
+using System.Windows;
 
 namespace CECS475_Lab3.ViewModel
 {
@@ -28,25 +29,25 @@ namespace CECS475_Lab3.ViewModel
             }
         }
 
-        private decimal _number1;
-        public decimal Number1
+        private string _number1;
+        public string Number1
         {
             get { return _number1; }
             set { _number1 = value; OnPropertyChanged("Number1"); }
         }
 
 
-        private decimal _number2;
-        public decimal Number2
+        private string _number2;
+        public string Number2
         {
             get { return _number2; }
             set { _number2 = value; OnPropertyChanged("Number2"); }
         }
 
 
-        private decimal _result;
+        private string _result;
 
-        public decimal Result
+        public string Result
         {
             get { return _result; }
             set { _result = value; OnPropertyChanged("Result"); }
@@ -55,8 +56,6 @@ namespace CECS475_Lab3.ViewModel
 
         public ViewModel()
         {
-            Console.WriteLine(Number1);
-            Console.WriteLine(Number2);
             MyCommand = new RelayCommand(sum, canexecute);
             MyCommand2 = new RelayCommand(substract, canexecute);
             MyCommand3 = new RelayCommand(multiply, canexecute);
@@ -65,35 +64,34 @@ namespace CECS475_Lab3.ViewModel
 
         private bool canexecute(object parameter)
         {
-            if (!string.IsNullOrEmpty(Number1.ToString()) && !string.IsNullOrEmpty(Number2.ToString()))
+            if (!string.IsNullOrEmpty(Number1) && !string.IsNullOrEmpty(Number2))
             {
                 return true;
             }
             return false;
+
         }
 
 
         private void sum(object parameter)
         {
-            Result = Number1 + Number2;
+            Result = (Convert.ToDouble(Number1) + Convert.ToDouble(Number2)).ToString();
         }
         private void substract(object parameter)
         {
-            Result = Number1 - Number2;
+            Result = (Convert.ToDouble(Number1) - Convert.ToDouble(Number2)).ToString();
         }
         private void multiply(object parameter)
         {
-            Result = Number1 * Number2;
+            Result = (Convert.ToDouble(Number1) * Convert.ToDouble(Number2)).ToString();
         }
+
         private void divide(object parameter)
         {
-            if (Number2 != 0)
+            if (Convert.ToDouble(Number2) != 0)
             {
-                Result = Number1 / Number2;
+                Result = (Convert.ToDouble(Number1) / Convert.ToDouble(Number2)).ToString();
             }
-
         }
-
-
     }
 }
