@@ -31,3 +31,36 @@ C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\CECS475_Lab3_PreLab_57.pdb
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\View\ReceiverView.g.cs
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\View\ReceiverView.baml
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\CECS475_Lab3_PreLab_57.exe.config
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\CECS475_Lab3_PreLab_57.exe
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\CECS475_Lab3_PreLab_57.pdb
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\CommonServiceLocator.dll
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\System.Windows.Interactivity.dll
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\CECS475_Lab3_PreLab_57.csprojAssemblyReference.cache
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\MainWindow.g.cs
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\View\ReceiverView.g.cs
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\View\SenderView.g.cs
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\App.g.cs
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\CECS475_Lab3_PreLab_57_MarkupCompile.cache
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\CECS475_Lab3_PreLab_57_MarkupCompile.lref
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\App.baml
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\MainWindow.baml
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\View\ReceiverView.baml
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\View\SenderView.baml
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\CECS475_Lab3_PreLab_57.g.resources
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\CECS475_Lab3_PreLab_57.Properties.Resources.resources
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\CECS475_Lab3_PreLab_57.csproj.GenerateResource.cache
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\CECS475_Lab3_PreLab_57.csproj.CoreCompileInputs.cache
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\CECS475_Lab3_PreLab_57.csproj.CopyComplete
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\CECS475_Lab3_PreLab_57.exe
+C:\Github\CECS475\CECS475_Lab3_PreLab_57\CECS475_Lab3_PreLab_57\obj\Debug\CECS475_Lab3_PreLab_57.pdb
