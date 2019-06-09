@@ -78,14 +78,7 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         {
             try
             {
-
-                // *** Start ***
-
-                var updatedMember =  new MessageMember(EnteredFName, EnteredLName, EnteredEmail,"Update");
-                
-                Messenger.Default.Send(updatedMember);
-
-                // *** End ***
+                Messenger.Default.Send(new MessageMember(EnteredFName, EnteredLName, EnteredEmail, "Update"));
                 window.Close();
             }
             catch (ArgumentException)
@@ -125,9 +118,6 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             EnteredFName = m.FirstName;
             EnteredLName = m.LastName;
             EnteredEmail = m.Email; 
-
-
-
             // *** End ***
         }
 

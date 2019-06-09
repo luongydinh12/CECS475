@@ -38,10 +38,9 @@ namespace CECS475_Lab3_FitnessMembership.Model
         /// <param name="mail">The member's e-mail.</param>
         public Member(string fName, string lName, string mail)
         {
-            firstName = fName;
-            lastName = lName;
-            email = mail;
-
+            FirstName = fName;
+            LastName = lName;
+            Email = mail;
         }
         /// <summary>
         /// A property that gets or sets the member's first name, and makes sure it's not too long.

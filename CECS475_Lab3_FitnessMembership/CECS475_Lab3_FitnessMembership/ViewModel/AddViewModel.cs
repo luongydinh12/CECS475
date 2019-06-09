@@ -77,8 +77,10 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             {
                 if (window != null)
                 {
-                    var newMember = new MessageMember(EnteredFName, EnteredLName, EnteredEmail, "Add");
-                    Messenger.Default.Send(newMember);
+                    //var newMember = new MessageMember(EnteredFName, EnteredLName, EnteredEmail, "Add");
+                    //Messenger.Default.Send(newMember);
+
+                    Messenger.Default.Send(new MessageMember(EnteredFName, EnteredLName, EnteredEmail, "Add"));
                     ResetInputFields();
                     window.Close();
                 }
