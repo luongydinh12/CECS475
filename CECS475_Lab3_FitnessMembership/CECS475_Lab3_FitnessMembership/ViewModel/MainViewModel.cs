@@ -71,12 +71,12 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         /// </summary>
         public MainViewModel()
         {
-            members =
-            database =
+            members = new ObservableCollection<Member>();
+            database = new MemberDB(members);
             members = database.GetMemberships();
-            AddCommand =
-            ExitCommand =
-            ChangeCommand =
+            AddCommand = new RelayCommand(AddMethod);
+            ExitCommand = new RelayCommand<IClosable>(this.ExitMethod);
+            ChangeCommand = new RelayCommand(ChangeMethod);
             Messenger.Default.Register<MessageMember>(this, ReceiveMember);
             Messenger.Default.Register<NotificationMessage>(this, ReceiveMessage);
         }
@@ -85,7 +85,8 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         /// The command that triggers adding a new member.
         /// </summary>
         public ICommand AddCommand { get; private set; }
-
+        public RelayCommand<IClosable> ExitCommand { get; private set; }
+        public ICommand ChangeCommand { get; private set; }
 
 
         /// <summary>
@@ -147,12 +148,22 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         {
             if (m.Message == "Update")
             {
-                _____________________________________
+                // *** Start ***: 
+
+
+
+
+                // *** End ***: 
                 database.SaveMemberships();
             }
             else if (m.Message == "Add")
             {
-                ______________________________________
+                // *** Start ***: 
+
+
+
+
+                // *** End ***: 
                 database.SaveMemberships();
             }
         }
@@ -166,7 +177,13 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         {
             if (msg.Notification == "Delete")
             {
-                _______________________________________________
+                // *** Start ***: 
+
+
+
+
+                // *** End ***: 
+
                 database.SaveMemberships();
             }
         }

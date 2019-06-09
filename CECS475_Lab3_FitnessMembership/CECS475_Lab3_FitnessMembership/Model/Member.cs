@@ -19,6 +19,14 @@ namespace CECS475_Lab3_FitnessMembership.Model
         /// <summary>
         /// The member's last name.
         /// </summary>
+        private string lastName;
+        /// The member's email.
+        /// </summary>
+        private string email;
+        /// <summary>
+        /// Text limit
+        /// </summary>
+        private int TEXT_LIMIT = 200;
 
         public Member() { }
 
@@ -30,9 +38,36 @@ namespace CECS475_Lab3_FitnessMembership.Model
         /// <param name="mail">The member's e-mail.</param>
         public Member(string fName, string lName, string mail)
         {
+            firstName = fName;
+            lastName = lName;
+            email = mail;
 
         }
+        /// <summary>
+        /// A property that gets or sets the member's first name, and makes sure it's not too long.
+        /// </summary>
+        /// <returns>The member's first name.</returns>
+        public string FirstName
+        {
+            get
+            {
+                return firstName;
+            }
+            set
+            {
+                if (value.Length > TEXT_LIMIT)
+                {
+                    throw new ArgumentException("Too long");
+                }
 
+                if (value.Length == 0)
+                {
+                    throw new NullReferenceException();
+                }
+
+                firstName = value;
+            }
+        }
 
 
         /// <summary>
@@ -96,6 +131,10 @@ namespace CECS475_Lab3_FitnessMembership.Model
         /// Text to be displayed in the list box.
         /// </summary>
         /// <returns>A concatenation of the member's first name, last name, and e-mail.</returns>
+        public override string ToString()
+        {
+            return firstName +"|"+ lastName + "|"+ email ;
+        }
 
     }
 }

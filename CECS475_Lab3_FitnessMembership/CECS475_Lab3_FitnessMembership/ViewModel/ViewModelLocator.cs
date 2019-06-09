@@ -59,10 +59,10 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         }
     }
 }*/
-
+using CommonServiceLocator;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
-using Microsoft.Practices.ServiceLocation;
+//using Microsoft.Practices.ServiceLocation;
 using System;
 
 namespace CECS475_Lab3_FitnessMembership.ViewModel
@@ -80,7 +80,12 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         {
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
             SimpleIoc.Default.Register<MainViewModel>();
-            ____________________________________
+
+            // *** Start ***
+            SimpleIoc.Default.Register<AddViewModel>();
+            SimpleIoc.Default.Register<ChangeViewModel>();
+
+            // *** End ***
         }
 
         /// <summary>
@@ -93,7 +98,23 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
                 return ServiceLocator.Current.GetInstance<MainViewModel>();
             }
         }
+        // *** Start ***
 
+        public AddViewModel AddViewModel
+        {
+            get { return ServiceLocator.Current.GetInstance<AddViewModel>(); }
+        }
+       
+        public ChangeViewModel ChangeViewModel
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<ChangeViewModel>();
+            }
+        }
+
+
+        // *** End ***
 
     }
 }

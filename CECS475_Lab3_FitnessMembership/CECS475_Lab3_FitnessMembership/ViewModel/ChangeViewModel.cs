@@ -48,8 +48,15 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         /// </summary>
         public ChangeViewModel()
         {
-            _____________________________________
-            Messenger.Default.Register<Member>(this, ___________________ -);
+            // *** Start ***
+            enteredFName = EnteredFName;
+            enteredLName = EnteredLName;
+            enteredEmail = EnteredEmail;
+            UpdateCommand = new RelayCommand<IClosable>(this.UpdateMethod); // new RelayCommand(UpdateMethod);
+            DeleteCommand = new RelayCommand<IClosable>(this.DeleteMethod); //new RelayCommand(DeleteMethod());
+
+            Messenger.Default.Register<Member>(this, GetSelected);
+            // *** End ***
         }
 
         /// <summary>
@@ -70,18 +77,18 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         {
             try
             {
-                Messenger.Default.Send(_________________________________________ -));
+                Messenger.Default.Send("Update");
                 window.Close();
             }
             catch (ArgumentException)
             {
                 MessageBox.Show("Fields must be under 25 characters.", "Entry Error");
             }
-            catch (__________________________n)
+            catch (NullReferenceException)
             {
                 MessageBox.Show("Fields cannot be empty.", "Entry Error");
             }
-            catch (______________________n)
+            catch (FormatException)
             {
                 MessageBox.Show("Must be a valid e-mail address.", "Entry Error");
             }
@@ -95,7 +102,7 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         {
             if (window != null)
             {
-                Messenger.Default.Send(______________________________________--));
+                Messenger.Default.Send("Delete");
                 window.Close();
             }
         }
@@ -106,7 +113,12 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         /// <param name="m">The member data to fill in.</param>
         public void GetSelected(Member m)
         {
-            ___________________________
+            // *** Start ***
+
+
+
+
+            // *** End ***
         }
 
         /// <summary>
@@ -125,6 +137,31 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             }
         }
 
+        public string EnteredLName
+        {
+            get
+            {
+                return enteredLName;
+            }
+            set
+            {
+                enteredLName = value;
+                RaisePropertyChanged("EnteredLName");
+            }
+        }
+
+        public string EnteredEmail
+        {
+            get
+            {
+                return enteredEmail;
+            }
+            set
+            {
+                enteredEmail = value;
+                RaisePropertyChanged("EnteredEmail");
+            }
+        }
 
     }
 }

@@ -41,7 +41,18 @@ namespace CECS475_Lab3_FitnessMembership.Model
             try
             {
                 StreamReader input = new StreamReader(new FileStream(filepath, FileMode.OpenOrCreate, FileAccess.Read));
+                string[] separatingChar = { "|" };
 
+                // *** Start ***
+
+                while (input.Peek() != -1)
+                {
+                    var line = input.ReadLine();
+                    string[] info = line.Split(separatingChar, System.StringSplitOptions.RemoveEmptyEntries);
+                    members.Add(new Member(info[0], info[1], info[2]));
+                }
+
+                // *** End ***
 
                 input.Close();
             }
@@ -63,7 +74,17 @@ namespace CECS475_Lab3_FitnessMembership.Model
         {
             StreamWriter output = new StreamWriter(new FileStream(filepath, FileMode.Create, FileAccess.Write));
 
+            // *** Start ***
 
+            foreach (Member m in members)
+            {
+                output.Write(m.FirstName + "|");
+                output.Write(m.LastName + "|");
+                output.Write(m.Email + "|");
+                output.WriteLine();
+            }
+
+            // *** End ***
 
             output.Close();
         }

@@ -49,7 +49,12 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         public AddViewModel()
         {
             SaveCommand = new RelayCommand<IClosable>(SaveMethod);
-            __________________________________________________
+
+            // *** Start ***
+            CancelCommand = new RelayCommand<IClosable>(CancelMethod);
+
+
+            // *** End ***
         }
 
         /// <summary>
@@ -72,7 +77,7 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             {
                 if (window != null)
                 {
-                    Messenger.Default.Send(_______________________________________));
+                    Messenger.Default.Send("Add");
                     window.Close();
                 }
             }
@@ -117,8 +122,37 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
                 RaisePropertyChanged("EnteredFName");
             }
         }
-
         /// <summary>
+        /// The currently entered last name in the add window.
+        /// </summary>
+        public string EnteredLName
+        {
+            get
+            {
+                return enteredLName;
+            }
+            set
+            {
+                enteredLName = value;
+                RaisePropertyChanged("EnteredLName");
+            }
+        }
+        /// <summary>
+        /// The currently entered email in the add window.
+        /// </summary>
+        public string EnteredEmail
+        {
+            get
+            {
+                return enteredEmail;
+            }
+            set
+            {
+                enteredEmail = value;
+                RaisePropertyChanged("EnteredEmail");
+            }
+        }
+
 
     }
 }
