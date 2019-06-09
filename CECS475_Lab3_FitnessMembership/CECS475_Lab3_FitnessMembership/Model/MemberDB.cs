@@ -41,15 +41,15 @@ namespace CECS475_Lab3_FitnessMembership.Model
             try
             {
                 StreamReader input = new StreamReader(new FileStream(filepath, FileMode.OpenOrCreate, FileAccess.Read));
-                string[] separatingChar = { "|" };
+                string[] separatingStrings = { "|" };
 
                 // *** Start ***
-
+                /* References: https://docs.microsoft.com/en-us/dotnet/csharp/how-to/parse-strings-using-split */
                 while (input.Peek() != -1)
                 {
                     var line = input.ReadLine();
-                    string[] info = line.Split(separatingChar, System.StringSplitOptions.RemoveEmptyEntries);
-                    members.Add(new Member(info[0], info[1], info[2]));
+                    string[] words = line.Split(separatingStrings, System.StringSplitOptions.RemoveEmptyEntries);
+                    members.Add(new Member(words[0], words[1], words[2]));
                 }
 
                 // *** End ***

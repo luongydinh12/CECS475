@@ -77,7 +77,9 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             {
                 if (window != null)
                 {
-                    Messenger.Default.Send("Add");
+                    var newMember = new MessageMember(EnteredFName, EnteredLName, EnteredEmail, "Add");
+                    Messenger.Default.Send(newMember);
+                    ResetInputFields();
                     window.Close();
                 }
             }
@@ -95,6 +97,13 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             }
         }
 
+        private void ResetInputFields()
+        {
+            EnteredFName = null;
+            EnteredLName = null;
+            EnteredEmail = null;
+        }
+
         /// <summary>
         /// Closes the window.
         /// </summary>
@@ -103,6 +112,7 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         {
             if (window != null)
             {
+                ResetInputFields();
                 window.Close();
             }
         }

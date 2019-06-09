@@ -18,7 +18,7 @@ namespace CECS475_Lab3_FitnessMembership
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window, IClosable
     {
         public MainWindow()
         {

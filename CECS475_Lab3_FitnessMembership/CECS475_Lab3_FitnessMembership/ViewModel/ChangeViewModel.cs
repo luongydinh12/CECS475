@@ -49,9 +49,10 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         public ChangeViewModel()
         {
             // *** Start ***
-            enteredFName = EnteredFName;
-            enteredLName = EnteredLName;
-            enteredEmail = EnteredEmail;
+            //enteredFName = EnteredFName;
+            //enteredLName = EnteredLName;
+            //enteredEmail = EnteredEmail;
+
             UpdateCommand = new RelayCommand<IClosable>(this.UpdateMethod); // new RelayCommand(UpdateMethod);
             DeleteCommand = new RelayCommand<IClosable>(this.DeleteMethod); //new RelayCommand(DeleteMethod());
 
@@ -77,7 +78,14 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         {
             try
             {
-                Messenger.Default.Send("Update");
+
+                // *** Start ***
+
+                var updatedMember =  new MessageMember(EnteredFName, EnteredLName, EnteredEmail,"Update");
+                
+                Messenger.Default.Send(updatedMember);
+
+                // *** End ***
                 window.Close();
             }
             catch (ArgumentException)
@@ -102,7 +110,7 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         {
             if (window != null)
             {
-                Messenger.Default.Send("Delete");
+                Messenger.Default.Send(new NotificationMessage("Delete"));
                 window.Close();
             }
         }
@@ -114,7 +122,9 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         public void GetSelected(Member m)
         {
             // *** Start ***
-
+            EnteredFName = m.FirstName;
+            EnteredLName = m.LastName;
+            EnteredEmail = m.Email; 
 
 
 

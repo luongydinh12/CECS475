@@ -18,7 +18,7 @@ namespace CECS475_Lab3_FitnessMembership.View
     /// <summary>
     /// Interaction logic for ChangeWindow.xaml
     /// </summary>
-    public partial class ChangeWindow : UserControl
+    public partial class ChangeWindow : Window, IClosable
     {
         public ChangeWindow()
         {

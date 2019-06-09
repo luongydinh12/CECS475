@@ -18,7 +18,7 @@ namespace CECS475_Lab3_FitnessMembership.View
     /// <summary>
     /// Interaction logic for AddWindow.xaml
     /// </summary>
-    public partial class AddWindow : UserControl
+    public partial class AddWindow : Window, IClosable
     {
         public AddWindow()
         {

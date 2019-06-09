@@ -26,7 +26,7 @@ namespace CECS475_Lab3_FitnessMembership.Model
         /// <summary>
         /// Text limit
         /// </summary>
-        private int TEXT_LIMIT = 200;
+        private int TEXT_LIMIT = 100;
 
         public Member() { }
 
@@ -57,7 +57,7 @@ namespace CECS475_Lab3_FitnessMembership.Model
             {
                 if (value.Length > TEXT_LIMIT)
                 {
-                    throw new ArgumentException("Too long");
+                    throw new ArgumentException("Too long (max length is 100 characters)");
                 }
 
                 if (value.Length == 0)
@@ -84,7 +84,7 @@ namespace CECS475_Lab3_FitnessMembership.Model
             {
                 if (value.Length > TEXT_LIMIT)
                 {
-                    throw new ArgumentException("Too long");
+                    throw new ArgumentException("Too long (max length is 100 characters)");
                 }
 
                 if (value.Length == 0)
@@ -133,7 +133,7 @@ namespace CECS475_Lab3_FitnessMembership.Model
         /// <returns>A concatenation of the member's first name, last name, and e-mail.</returns>
         public override string ToString()
         {
-            return firstName +"|"+ lastName + "|"+ email ;
+            return firstName +" "+ lastName + ", "+ email ;
         }
 
     }

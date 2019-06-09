@@ -75,7 +75,7 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             database = new MemberDB(members);
             members = database.GetMemberships();
             AddCommand = new RelayCommand(AddMethod);
-            ExitCommand = new RelayCommand<IClosable>(this.ExitMethod);
+            ExitCommand = new RelayCommand<IClosable>(ExitMethod);
             ChangeCommand = new RelayCommand(ChangeMethod);
             Messenger.Default.Register<MessageMember>(this, ReceiveMember);
             Messenger.Default.Register<NotificationMessage>(this, ReceiveMessage);
@@ -135,7 +135,7 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             {
                 ChangeWindow change = new ChangeWindow();
                 change.Show();
-                Messenger.Default.Send(__________________________);
+                Messenger.Default.Send(SelectedMember);
             }
         }
 
@@ -149,8 +149,12 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             if (m.Message == "Update")
             {
                 // *** Start ***: 
+                /*if (MemberList.Contains(selectedMember))
+                {
 
-
+                }*/
+                var i = MemberList.IndexOf(selectedMember);
+                MemberList[i] = new Member(m.FirstName, m.LastName, m.Email);
 
 
                 // *** End ***: 
@@ -159,10 +163,7 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             else if (m.Message == "Add")
             {
                 // *** Start ***: 
-
-
-
-
+                MemberList.Add(new Member(m.FirstName, m.LastName, m.Email));
                 // *** End ***: 
                 database.SaveMemberships();
             }
@@ -178,10 +179,7 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             if (msg.Notification == "Delete")
             {
                 // *** Start ***: 
-
-
-
-
+                members.Remove(selectedMember);
                 // *** End ***: 
 
                 database.SaveMemberships();
