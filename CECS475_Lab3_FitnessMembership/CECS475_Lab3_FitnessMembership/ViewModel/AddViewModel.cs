@@ -1,17 +1,4 @@
-﻿/*using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CECS475_Lab3_FitnessMembership.ViewModel
-{
-    class AddViewModel
-    {
-    }
-}*/
-
-using GalaSoft.MvvmLight;
+﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 using CECS475_Lab3_FitnessMembership.Model;
@@ -49,12 +36,7 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         public AddViewModel()
         {
             SaveCommand = new RelayCommand<IClosable>(SaveMethod);
-
-            // *** Start ***
             CancelCommand = new RelayCommand<IClosable>(CancelMethod);
-
-
-            // *** End ***
         }
 
         /// <summary>
@@ -77,9 +59,6 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             {
                 if (window != null)
                 {
-                    //var newMember = new MessageMember(EnteredFName, EnteredLName, EnteredEmail, "Add");
-                    //Messenger.Default.Send(newMember);
-
                     Messenger.Default.Send(new MessageMember(EnteredFName, EnteredLName, EnteredEmail, "Add"));
                     ResetInputFields();
                     window.Close();
@@ -99,6 +78,9 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
             }
         }
 
+        /// <summary>
+        /// Clearing out the input fields after done adding a user.
+        /// </summary>
         private void ResetInputFields()
         {
             EnteredFName = null;
@@ -164,7 +146,5 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
                 RaisePropertyChanged("EnteredEmail");
             }
         }
-
-
     }
 }

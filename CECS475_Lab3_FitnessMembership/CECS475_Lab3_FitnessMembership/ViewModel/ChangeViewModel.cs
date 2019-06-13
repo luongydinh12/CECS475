@@ -1,17 +1,4 @@
-﻿/*using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CECS475_Lab3_FitnessMembership.ViewModel
-{
-    class ChangeViewModel
-    {
-    }
-}*/
-
-using GalaSoft.MvvmLight;
+﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 using CECS475_Lab3_FitnessMembership.Model;
@@ -48,16 +35,9 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         /// </summary>
         public ChangeViewModel()
         {
-            // *** Start ***
-            //enteredFName = EnteredFName;
-            //enteredLName = EnteredLName;
-            //enteredEmail = EnteredEmail;
-
-            UpdateCommand = new RelayCommand<IClosable>(this.UpdateMethod); // new RelayCommand(UpdateMethod);
-            DeleteCommand = new RelayCommand<IClosable>(this.DeleteMethod); //new RelayCommand(DeleteMethod());
-
+            UpdateCommand = new RelayCommand<IClosable>(this.UpdateMethod); 
+            DeleteCommand = new RelayCommand<IClosable>(this.DeleteMethod); 
             Messenger.Default.Register<Member>(this, GetSelected);
-            // *** End ***
         }
 
         /// <summary>
@@ -114,11 +94,9 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
         /// <param name="m">The member data to fill in.</param>
         public void GetSelected(Member m)
         {
-            // *** Start ***
             EnteredFName = m.FirstName;
             EnteredLName = m.LastName;
             EnteredEmail = m.Email; 
-            // *** End ***
         }
 
         /// <summary>
@@ -136,7 +114,9 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
                 RaisePropertyChanged("EnteredFName");
             }
         }
-
+        /// <summary>
+        /// The currently entered last name in the change window.
+        /// </summary>
         public string EnteredLName
         {
             get
@@ -149,7 +129,9 @@ namespace CECS475_Lab3_FitnessMembership.ViewModel
                 RaisePropertyChanged("EnteredLName");
             }
         }
-
+        /// <summary>
+        /// The currently entered email name in the change window.
+        /// </summary>
         public string EnteredEmail
         {
             get

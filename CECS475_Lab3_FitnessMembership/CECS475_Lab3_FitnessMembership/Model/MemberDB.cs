@@ -43,7 +43,6 @@ namespace CECS475_Lab3_FitnessMembership.Model
                 StreamReader input = new StreamReader(new FileStream(filepath, FileMode.OpenOrCreate, FileAccess.Read));
                 string[] separatingStrings = { "|" };
 
-                // *** Start ***
                 /* References: https://docs.microsoft.com/en-us/dotnet/csharp/how-to/parse-strings-using-split */
                 while (input.Peek() != -1)
                 {
@@ -51,8 +50,6 @@ namespace CECS475_Lab3_FitnessMembership.Model
                     string[] words = line.Split(separatingStrings, System.StringSplitOptions.RemoveEmptyEntries);
                     members.Add(new Member(words[0], words[1], words[2]));
                 }
-
-                // *** End ***
 
                 input.Close();
             }
@@ -74,8 +71,6 @@ namespace CECS475_Lab3_FitnessMembership.Model
         {
             StreamWriter output = new StreamWriter(new FileStream(filepath, FileMode.Create, FileAccess.Write));
 
-            // *** Start ***
-
             foreach (Member m in members)
             {
                 output.Write(m.FirstName + "|");
@@ -83,9 +78,6 @@ namespace CECS475_Lab3_FitnessMembership.Model
                 output.Write(m.Email + "|");
                 output.WriteLine();
             }
-
-            // *** End ***
-
             output.Close();
         }
     }
