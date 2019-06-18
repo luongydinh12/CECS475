@@ -18,77 +18,66 @@ namespace JoinQueries
             // Entity Framework DBContext
             BooksEntities dbcontext =
                new BooksEntities();
+            //A . Get a list of all the titles and the authors who wrote them. Sort the result by title.
+            var titleAuthor = from author in dbcontext.Authors
+                              from book in author.Titles
+                              orderby book.Title1
+                              select new { book.Title1, author.FirstName, author.LastName };
 
-            // get authors and ISBNs of each book they co-authored
-            var authorsAndISBNs =
-               from author in dbcontext.Authors
-               from book in author.Titles
-               orderby author.LastName, author.FirstName
-               select new { author.FirstName, author.LastName, book.ISBN };
+            outputTextBox.AppendText("Titles and Authors :");
 
-            outputTextBox.AppendText("Authors and ISBNs:");
-
-            // display authors and ISBNs in tabular format
-            foreach (var element in authorsAndISBNs)
+            // display titles and authors
+            foreach (var element in titleAuthor)
             {
                 outputTextBox.AppendText(
-                   String.Format("\r\n\t{0,-10} {1,-10} {2,-10}",
-                      element.FirstName, element.LastName, element.ISBN));
+                   String.Format("\r\n\t{0,0} {1,0} {2,0}",
+                       element.Title1, element.FirstName, element.LastName));
             } // end foreach
 
-            // get authors and titles of each book they co-authored
-            var authorsAndTitles =
-               from book in dbcontext.Titles
-               from author in book.Authors
-               orderby author.LastName, author.FirstName, book.Title1
-               select new //Anonymous obj
-               {
-                   author.FirstName,
-                   author.LastName,
-                   book.Title1
-               };
 
-            outputTextBox.AppendText("\r\n\r\nAuthors and titles:");
-
-            // display authors and titles in tabular format
-            foreach (var element in authorsAndTitles)
+            //B . Get a list of all the titles and the authors who wrote them. Sort the result by title. For each title sort the authors alphabetically by last name, then first name.
+            var allTitleAuthors = from author in dbcontext.Authors
+                                  from book in author.Titles
+                                  orderby book.Title1, author.LastName, author.FirstName
+                                  select new { book.Title1, author.LastName, author.FirstName };
+            outputTextBox.AppendText("\r\n\r\nAuthors and titles with authors sorted for each title:");
+            foreach (var element in allTitleAuthors)
             {
                 outputTextBox.AppendText(
-                   String.Format("\r\n\t{0,-10} {1,-10} {2}",
-                      element.FirstName, element.LastName, element.Title1));
+                   String.Format("\r\n\t{0,0} {1,0} {2,0}",
+                       element.Title1, element.FirstName, element.LastName));
             } // end foreach
 
-            // get authors and titles of each book 
-            // they co-authored; group by author
-            var titlesByAuthor =
-               from author in dbcontext.Authors
-               orderby author.LastName, author.FirstName
-               select new
-               {
-                   Name = author.FirstName + " " + author.LastName,
-                   Titles =
-                     from book in author.Titles
-                     orderby book.Title1
-                     select book.Title1
-               };
 
+            //C . Get a list of all the authors grouped by title, sorted by title; for a given title sort the author names alphabetically by last name first then first name
+            var allAuthors = from book in dbcontext.Titles
+                             orderby book.Title1
+                             select new
+                             {
+                                 Title = book.Title1,
+                                 Authors = from author in book.Authors
+
+                                           orderby author.LastName, author.FirstName
+                                           select new
+                                           {
+                                               author.FirstName,
+                                               author.LastName
+                                           }
+                             };
             outputTextBox.AppendText("\r\n\r\nTitles grouped by author:");
-
-            // display titles written by each author, grouped by author
-            foreach (var author in titlesByAuthor)
+            foreach (var element in allAuthors)
             {
-                // display author's name
-                outputTextBox.AppendText("\r\n\t" + author.Name + ":");
-
-                // display titles written by that author
-                foreach (var title in author.Titles)
+                outputTextBox.AppendText(
+                   String.Format("\r\n\t{0,0}", element.Title));
+                foreach (var authors in element.Authors)
                 {
-                    outputTextBox.AppendText("\r\n\t\t" + title);
-                } // end inner foreach
-            } // end outer foreach
-             
-                        
-               
+                    outputTextBox.AppendText(
+                        String.Format("\r\n\t\t{0,0} {1,0} ",
+                        authors.FirstName, authors.LastName));
+                }
+            } // end foreach
+
+
         } // end method JoiningTableData_Load
     } // end class JoiningTableData
 } // end namespace JoinQueries
