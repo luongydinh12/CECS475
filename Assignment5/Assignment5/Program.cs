@@ -27,16 +27,6 @@ namespace Assignment5
                 Console.WriteLine("[          Teacher           ]");
                 Console.WriteLine("1. Add Teacher");
                 Console.WriteLine("2. Update Teacher"); 
-                // 2B. need to fix the error "System.InvalidOperationException", failed if other option performs first
-                /*ERROR:
-                 * System.InvalidOperationException: 'Attaching an entity of type 'DataAccessLayer.Teacher' 
-                 * failed because another entity of the same type already has the same primary key value. 
-                 * This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' 
-                 * or 'Modified' if any entities in the graph have conflicting key values. This may be because 
-                 * some entities are new and have not yet received database-generated key values. 
-                 * In this case use the 'Add' method or the 'Added' entity state to track the graph and then 
-                 * set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.'
-                 */
                 Console.WriteLine("3. Remove Teacher");
                 Console.WriteLine("4. Display all courses associated with a Teacher ID");
                 Console.WriteLine("5. Display all teachers");
@@ -44,8 +34,6 @@ namespace Assignment5
                 Console.WriteLine("[          Course           ]");
                 Console.WriteLine("6. Add Course");
                 Console.WriteLine("7. Update Course");  
-                // 7B. need to fix the error " System.InvalidOperationException", failed if other option performs first
-                // Same as 2B
                 Console.WriteLine("8. Remove Course");
                 Console.WriteLine("9. Display all courses");
                 Console.WriteLine("-------------------------------");
@@ -107,8 +95,9 @@ namespace Assignment5
                     {
                         Console.WriteLine("Teacher Name ?");
                         string name = Console.ReadLine();
-                        Teacher teacher = bl.GetTeacherByName(name);
-                        //Console.WriteLine(teacher);
+                        Teacher temp = bl.GetTeacherByName(name);
+                        int id = temp.TeacherId;
+                        Teacher teacher = bl.GetTeacherByID(id);
                         if (teacher == null)
                         {
                             Console.WriteLine("Teacher not found!");
@@ -209,8 +198,9 @@ namespace Assignment5
                     {
                         Console.WriteLine("Course Name ?");
                         string name = Console.ReadLine();
-                        Course course = bl.GetCourseByName(name);
-                        //Console.WriteLine(Course);
+                        Course temp = bl.GetCourseByName(name);
+                        int id = temp.CourseId;
+                        Course course = bl.GetCourseByID(id);
                         if (course == null)
                         {
                             Console.WriteLine("Course not found!");

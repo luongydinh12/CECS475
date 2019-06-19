@@ -92,7 +92,6 @@ namespace BusinessLayer
                 s => s.Courses);
         } 
 
-
         public void AddTeacher(Teacher teacher)
         {
             _teacherRepository.Insert(teacher);

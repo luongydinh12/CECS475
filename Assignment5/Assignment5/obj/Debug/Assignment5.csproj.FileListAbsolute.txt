@@ -61,3 +61,20 @@ C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\Assignment5\bin\Debug\E
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\Assignment5\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\Assignment5\obj\Debug\Assignment5.csproj.CopyComplete
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\Assignment5\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\SchoolDB.mdf
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\SchoolDB_log.ldf
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\Assignment5.exe.config
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\Assignment5.exe
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\Assignment5.pdb
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\BusinessLayer.exe
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\DataAccessLayer.exe
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\EntityFramework.dll
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\EntityFramework.SqlServer.dll
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\BusinessLayer.pdb
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\BusinessLayer.exe.config
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\DataAccessLayer.pdb
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\DataAccessLayer.exe.config
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\EntityFramework.xml
+C:\Github\CECS475\Assignment5\Assignment5\bin\Debug\EntityFramework.SqlServer.xml
+C:\Github\CECS475\Assignment5\Assignment5\obj\Debug\Assignment5.csproj.CopyComplete
