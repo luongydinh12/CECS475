@@ -7,9 +7,9 @@ namespace BusinessLayer
 {
     public class BusinessLayer : IBusinessLayer
     {
+/*    
         private readonly IStandardRepository _standardRepository;
        
-
         public BusinessLayer()
         {
             _standardRepository = new StandardRepository();
@@ -49,10 +49,105 @@ namespace BusinessLayer
             _standardRepository.Delete(standard);
         }
         #endregion
+*/
+        // *********** ADDED  **************
+        private readonly ITeacherRepository _teacherRepository;
+        private readonly ICourseRepository _courseRepository;
+        
+        public BusinessLayer()
+        {
+            _teacherRepository = new TeacherRepository();
+            _courseRepository = new CourseRepository();
+        }
 
-        #region Student
-        
-        
+
+        #region Teacher
+        public IEnumerable<Teacher> GetAllTeachers()
+        {
+            return _teacherRepository.GetAll();
+        }
+
+        public Teacher GetTeacherByID(int id)
+        {
+            return _teacherRepository.GetById(id);
+        }
+        /*
+        public Teacher GetTeacherByName(string name)
+        {
+            return _teacherRepository.GetSingle(
+                s => s.TeacherName.Equals(name),
+                s => s.Teachers);
+        }*/
+        public Teacher GetTeacherByName(string name)
+        {
+            return _teacherRepository.GetSingle(
+                s => s.TeacherName.Equals(name),
+                s => s.Courses); //include courses ?
+        }
+
+        public Teacher GetCoursesByTeacherID(int id)
+        {
+            return _teacherRepository.GetSingle(
+                s => s.TeacherId.Equals(id),
+                s => s.Courses);
+        } 
+
+
+        public void AddTeacher(Teacher teacher)
+        {
+            _teacherRepository.Insert(teacher);
+        }
+
+        public void UpdateTeacher(Teacher teacher)
+        {
+            _teacherRepository.Update(teacher);
+        }
+
+        public void RemoveTeacher(Teacher teacher)
+        {
+            _teacherRepository.Delete(teacher);
+        }   
         #endregion
+        
+             
+        #region Course
+        public IEnumerable<Course> GetAllCourses()
+        {
+            return _courseRepository.GetAll();
+        }
+
+        public Course GetCourseByID(int id)
+        {
+            return _courseRepository.GetById(id);
+        }
+        /*
+        public Course GetCourseByName(string name)
+        {
+            return _courseRepository.GetSingle(
+                s => s.CourseName.Equals(name),
+                s => s.Courses);
+        }*/
+        public Course GetCourseByName(string name)
+        {
+            return _courseRepository.GetSingle(
+                s => s.CourseName.Equals(name)
+                );
+        }
+        public void AddCourse(Course course)
+        {
+            _courseRepository.Insert(course);
+        }
+
+        public void UpdateCourse(Course course)
+        {
+            _courseRepository.Update(course);
+        }
+
+        public void RemoveCourse(Course course)
+        {
+            _courseRepository.Delete(course);
+        }        
+        #endregion
+        // *********** ADDED  **************
     }
 }

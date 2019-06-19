@@ -18,8 +18,11 @@ namespace DataAccessLayer
         public Teacher()
         {
             this.Courses = new HashSet<Course>();
+
+            // *********** ADDED  **************
+            this.Teachers = new HashSet<Teacher>(); 
         }
-    
+
         public int TeacherId { get; set; }
         public string TeacherName { get; set; }
         public Nullable<int> StandardId { get; set; }
@@ -27,5 +30,9 @@ namespace DataAccessLayer
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Course> Courses { get; set; }
         public virtual Standard Standard { get; set; }
+
+
+        // *********** ADDED  **************
+        public virtual ICollection<Teacher> Teachers { get; set; }
     }
 }

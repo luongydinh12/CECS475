@@ -1,0 +1,15 @@
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\bin\Release\SchoolDB.mdf
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\bin\Release\SchoolDB_log.ldf
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\bin\Release\BusinessLayer.exe.config
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\bin\Release\BusinessLayer.exe
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\bin\Release\BusinessLayer.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\bin\Release\DataAccessLayer.exe
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\bin\Release\EntityFramework.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\bin\Release\DataAccessLayer.exe.config
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\bin\Release\EntityFramework.xml
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\obj\Release\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\obj\Release\BusinessLayer.csproj.CopyComplete
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\obj\Release\BusinessLayer.exe
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\BusinessLayer\obj\Release\BusinessLayer.pdb

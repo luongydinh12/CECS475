@@ -38,3 +38,18 @@ C:\Github\CECS475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.C
 C:\Github\CECS475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Github\CECS475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.exe
 C:\Github\CECS475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\bin\Debug\SchoolDB.mdf
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\bin\Debug\SchoolDB_log.ldf
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.exe.config
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.exe
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.exe
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
