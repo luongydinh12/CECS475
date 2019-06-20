@@ -5,10 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using BusinessLayer;
-//using DataAccessLayer;
-
-
 
 namespace Assignment5
 {
@@ -45,28 +41,14 @@ namespace Assignment5
 
                 if (optionInt == 1)
                 {
-                    //Console.WriteLine("Teacher ID ?");
-                    //int id = Convert.ToInt32(Console.ReadLine());
-
                     Console.WriteLine("Teacher Name ?");
                     string name = Console.ReadLine();
 
                     Teacher temp = new Teacher
                     {
-                        TeacherName = name/*,
-                        TeacherId = id*/
+                        TeacherName = name
                     };
 
-                    //Teacher teacher = bl.GetTeacherByID(id);
-                    /*
-                    if (teacher != null)
-                    {
-                        Console.WriteLine("Teacher ID is already existed");
-                    }
-                    else
-                    {
-                        bl.AddTeacher(temp);
-                    }*/
                     bl.AddTeacher(temp);
                 }
                 else if (optionInt == 2)
@@ -96,17 +78,24 @@ namespace Assignment5
                         Console.WriteLine("Teacher Name ?");
                         string name = Console.ReadLine();
                         Teacher temp = bl.GetTeacherByName(name);
-                        int id = temp.TeacherId;
-                        Teacher teacher = bl.GetTeacherByID(id);
-                        if (teacher == null)
+                        if (temp == null)
                         {
                             Console.WriteLine("Teacher not found!");
                         }
                         else
                         {
-                            Console.WriteLine("Enter new teacher name: ");
-                            teacher.TeacherName = Console.ReadLine();
-                            bl.UpdateTeacher(teacher);
+                            int id = temp.TeacherId;
+                            Teacher teacher = bl.GetTeacherByID(id);
+                            if (teacher == null)
+                            {
+                                Console.WriteLine("Teacher not found!");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Enter new teacher name: ");
+                                teacher.TeacherName = Console.ReadLine();
+                                bl.UpdateTeacher(teacher);
+                            }
                         }
                     }
                     else
@@ -119,14 +108,21 @@ namespace Assignment5
                     Console.WriteLine("Teacher ID to be deleted?");
                     int id = Convert.ToInt16(Console.ReadLine());
                     Teacher teacher = bl.GetTeacherByID(id);
-                    bl.RemoveTeacher(teacher);
+                    if (teacher == null)
+                    {
+                        Console.WriteLine("Teacher not found !");
+                    }
+                    else
+                    {
+                        bl.RemoveTeacher(teacher);
+                    }      
                 }
                 else if (optionInt == 4)
                 {
                     Console.WriteLine("Teacher ID ?");
                     int id = Convert.ToInt32(Console.ReadLine());
                     Teacher teacher = bl.GetCoursesByTeacherID(id);
-                    if(teacher == null)
+                    if (teacher == null || teacher.Courses.Count == 0)
                     {
                         Console.WriteLine("No courses associated with this Teacher ID");
                     }
@@ -190,7 +186,35 @@ namespace Assignment5
                         {
                             Console.WriteLine("Enter new course name: ");
                             course.CourseName = Console.ReadLine();
-                            bl.UpdateCourse(course);
+
+                            IEnumerable<Teacher> allTeachers = bl.GetAllTeachers();
+                            Console.WriteLine("");
+                            Console.WriteLine("Current available Teachers");
+                            foreach (Teacher temp in allTeachers)
+                            {
+                                Console.WriteLine(temp.TeacherId + "  " + temp.TeacherName);
+                            }
+
+                            Console.WriteLine("Current teacher id is " +course.TeacherId +" . Please enter new teacher id: ");
+                            int idTemp = Convert.ToInt32(Console.ReadLine());
+                            bool flag = false;
+                            foreach (Teacher temp in allTeachers)
+                            {
+                                if(idTemp == temp.TeacherId)
+                                {
+                                    flag = true;
+                                }
+                            }
+                            if (flag == true)
+                            {
+                                course.TeacherId = idTemp;
+                                bl.UpdateCourse(course);
+                            }
+                            else
+                            {
+                                Console.WriteLine("Teacher ID is invalid");
+                            }
+
                         }
 
                     }
@@ -198,18 +222,51 @@ namespace Assignment5
                     {
                         Console.WriteLine("Course Name ?");
                         string name = Console.ReadLine();
-                        Course temp = bl.GetCourseByName(name);
-                        int id = temp.CourseId;
-                        Course course = bl.GetCourseByID(id);
-                        if (course == null)
+                        Course tempCourse = bl.GetCourseByName(name);
+                        if (tempCourse == null)
                         {
                             Console.WriteLine("Course not found!");
                         }
                         else
                         {
-                            Console.WriteLine("Enter new course name: ");
-                            course.CourseName = Console.ReadLine();
-                            bl.UpdateCourse(course);
+                            int id = tempCourse.CourseId;
+                            Course course = bl.GetCourseByID(id);
+                            if (course == null)
+                            {
+                                Console.WriteLine("Course not found!");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Enter new course name: ");
+                                course.CourseName = Console.ReadLine();
+                                IEnumerable<Teacher> allTeachers = bl.GetAllTeachers();
+                                Console.WriteLine("");
+                                Console.WriteLine("Current available Teachers");
+                                foreach (Teacher temp in allTeachers)
+                                {
+                                    Console.WriteLine(temp.TeacherId + "  " + temp.TeacherName);
+                                }
+
+                                Console.WriteLine("Current teacher id is " + course.TeacherId + " . Please enter new teacher id: ");
+                                int idTemp = Convert.ToInt32(Console.ReadLine());
+                                bool flag = false;
+                                foreach (Teacher temp in allTeachers)
+                                {
+                                    if (idTemp == temp.TeacherId)
+                                    {
+                                        flag = true;
+                                    }
+                                }
+                                if (flag == true)
+                                {
+                                    course.TeacherId = idTemp;
+                                    bl.UpdateCourse(course);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Teacher ID is invalid");
+                                }
+                            }
                         }
                     }
                     else
