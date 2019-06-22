@@ -26,3 +26,13 @@ C:\Github\CECS475\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csproj.Genera
 C:\Github\CECS475\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csproj.CoreCompileInputs.cache
 C:\Github\CECS475\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.exe
 C:\Github\CECS475\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe.config
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csprojAssemblyReference.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.FlickrViewerForm.resources
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.Properties.Resources.resources
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csproj.GenerateResource.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.exe
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.pdb
