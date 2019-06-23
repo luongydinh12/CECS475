@@ -162,6 +162,10 @@
       <DependentUpon>Books.edmx</DependentUpon>
       <LastGenOutput>Books.cs</LastGenOutput>
     </Content>
+    <Content Include="Books_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Books.mdf</DependentUpon>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

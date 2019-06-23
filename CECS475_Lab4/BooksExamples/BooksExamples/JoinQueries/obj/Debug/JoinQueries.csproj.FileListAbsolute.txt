@@ -122,3 +122,18 @@ C:\Github\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug
 C:\Github\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.CopyComplete
 C:\Github\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
 C:\Github\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\bin\Debug\Books.mdf
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\bin\Debug\Books_log.ldf
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe.config
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\bin\Debug\JoinQueries.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\bin\Debug\EntityFramework.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\bin\Debug\EntityFramework.xml
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.JoiningTableData.resources
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.Properties.Resources.resources
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.GenerateResource.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.CopyComplete
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csprojAssemblyReference.cache
