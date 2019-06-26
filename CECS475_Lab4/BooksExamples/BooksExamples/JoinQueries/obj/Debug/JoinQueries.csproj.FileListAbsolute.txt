@@ -137,3 +137,4 @@ C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExa
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csprojAssemblyReference.cache
+C:\Github\CECS475\CECS475_Lab4\BooksExamples\BooksExamples\JoinQueries\bin\Debug\Books_log.ldf

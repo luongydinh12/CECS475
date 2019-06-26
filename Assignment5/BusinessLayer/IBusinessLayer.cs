@@ -21,7 +21,7 @@ namespace BusinessLayer
         #endregion
         */
 
-        // *********** ADDED  **************
+       
         #region Teacher
         IEnumerable<Teacher> GetAllTeachers();
 
@@ -51,6 +51,6 @@ namespace BusinessLayer
 
         void RemoveCourse(Course course);       
         #endregion
-        // *********** ADDED  **************
+        
     }
 }

@@ -114,6 +114,14 @@ namespace Assignment5
                     }
                     else
                     {
+                        Teacher temp = bl.GetCoursesByTeacherID(id);
+                        foreach (var i in temp.Courses)
+                        {
+                            Course c = bl.GetCourseByID(i.CourseId);
+                            c.TeacherId = null;
+                            bl.UpdateCourse(c);
+                        }
+                        
                         bl.RemoveTeacher(teacher);
                     }      
                 }
@@ -293,10 +301,12 @@ namespace Assignment5
                 {
                     IEnumerable<Course> allCourses = bl.GetAllCourses();
                     Console.WriteLine();
-                    Console.WriteLine("ID Course Name");
+                    Console.WriteLine($"\t  {"ID",-5}" + $"{"Course name",-15}" + $"{"TeacherID",-15}");
+                    //Console.WriteLine("ID Course Name  TeacherID");
                     foreach (Course temp in allCourses)
                     {
-                        Console.WriteLine(temp.CourseId + "  " + temp.CourseName);
+                        Console.WriteLine($"\t  {temp.CourseId,-5}" + $"{temp.CourseName,-15}" + $"{temp.TeacherId,-15}" );
+                        //Console.WriteLine(temp.CourseId + "  " + temp.CourseName+ "       " + temp.TeacherId);
                     }
                     Console.WriteLine();
                 }

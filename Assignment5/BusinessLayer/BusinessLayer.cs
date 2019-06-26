@@ -50,7 +50,7 @@ namespace BusinessLayer
         }
         #endregion
 */
-        // *********** ADDED  **************
+        
         private readonly ITeacherRepository _teacherRepository;
         private readonly ICourseRepository _courseRepository;
         
@@ -71,13 +71,7 @@ namespace BusinessLayer
         {
             return _teacherRepository.GetById(id);
         }
-        /*
-        public Teacher GetTeacherByName(string name)
-        {
-            return _teacherRepository.GetSingle(
-                s => s.TeacherName.Equals(name),
-                s => s.Teachers);
-        }*/
+ 
         public Teacher GetTeacherByName(string name)
         {
             return _teacherRepository.GetSingle(
@@ -119,13 +113,7 @@ namespace BusinessLayer
         {
             return _courseRepository.GetById(id);
         }
-        /*
-        public Course GetCourseByName(string name)
-        {
-            return _courseRepository.GetSingle(
-                s => s.CourseName.Equals(name),
-                s => s.Courses);
-        }*/
+
         public Course GetCourseByName(string name)
         {
             return _courseRepository.GetSingle(
@@ -147,6 +135,6 @@ namespace BusinessLayer
             _courseRepository.Delete(course);
         }        
         #endregion
-        // *********** ADDED  **************
+
     }
 }
