@@ -37,6 +37,7 @@ namespace MvcMovie57.Models
                         Title57 = "When Harry Met Sally",
                         ReleaseDate57 = DateTime.Parse("1989-2-12"),
                         Genre57 = "Romantic Comedy",
+                        Rating57 = "R",
                         Price57 = 7.99M
                     },
 
@@ -45,6 +46,7 @@ namespace MvcMovie57.Models
                         Title57 = "Ghostbusters ",
                         ReleaseDate57 = DateTime.Parse("1984-3-13"),
                         Genre57 = "Comedy",
+                        Rating57 = "R",
                         Price57 = 8.99M
                     },
 
@@ -53,6 +55,7 @@ namespace MvcMovie57.Models
                         Title57 = "Ghostbusters 2",
                         ReleaseDate57 = DateTime.Parse("1986-2-23"),
                         Genre57 = "Comedy",
+                        Rating57 = "R",
                         Price57 = 9.99M
                     },
 
@@ -61,6 +64,7 @@ namespace MvcMovie57.Models
                         Title57 = "Rio Bravo",
                         ReleaseDate57 = DateTime.Parse("1959-4-15"),
                         Genre57 = "Western",
+                        Rating57 = "R",
                         Price57 = 3.99M
                     }
                 );
