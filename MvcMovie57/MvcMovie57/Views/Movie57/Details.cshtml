@@ -1,0 +1,42 @@
+﻿@model MvcMovie57.Models.Movie57
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Movie57</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title57)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title57)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ReleaseDate57)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseDate57)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Genre57)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Genre57)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Price57)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price57)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
