@@ -1,11 +1,11 @@
 ﻿@model MvcMovie57.Models.Movie57
 
+
 @{
     ViewData["Title"] = "Edit";
 }
 
 <h2>Edit</h2>
-
 <h4>Movie57</h4>
 <hr />
 <div class="row">
@@ -33,6 +33,13 @@
                 <input asp-for="Price57" class="form-control" />
                 <span asp-validation-for="Price57" class="text-danger"></span>
             </div>
+
+            <div class="form-group">
+                <label asp-for="Rating57" class="control-label"></label>
+                <input asp-for="Rating57" class="form-control" />
+                <span asp-validation-for="Rating57" class="text-danger"></span>
+            </div>
+
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-default" />
             </div>

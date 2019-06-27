@@ -12532,23 +12532,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dinh Luong\\.nuget\\packages\\": {},
+    "C:\\Users\\dinhluong\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dinh Luong\\Downloads\\GitHub\\CECS475\\MvcMovie57\\MvcMovie57\\MvcMovie57.csproj",
+      "projectUniqueName": "C:\\Github\\CECS475\\MvcMovie57\\MvcMovie57\\MvcMovie57.csproj",
       "projectName": "MvcMovie57",
-      "projectPath": "C:\\Users\\Dinh Luong\\Downloads\\GitHub\\CECS475\\MvcMovie57\\MvcMovie57\\MvcMovie57.csproj",
-      "packagesPath": "C:\\Users\\Dinh Luong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dinh Luong\\Downloads\\GitHub\\CECS475\\MvcMovie57\\MvcMovie57\\obj\\",
+      "projectPath": "C:\\Github\\CECS475\\MvcMovie57\\MvcMovie57\\MvcMovie57.csproj",
+      "packagesPath": "C:\\Users\\dinhluong\\.nuget\\packages\\",
+      "outputPath": "C:\\Github\\CECS475\\MvcMovie57\\MvcMovie57\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dinh Luong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dinhluong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

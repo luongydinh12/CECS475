@@ -37,3 +37,42 @@ C:\Users\Dinh Luong\Downloads\GitHub\CECS475\MvcMovie57\MvcMovie57\obj\Debug\net
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Movie57\Edit.g.cshtml.cs
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Movie57\Index.g.cshtml.cs
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\HelloWorld57\Index.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\bin\Debug\netcoreapp2.1\MvcMovie57.deps.json
+C:\Github\CECS475\MvcMovie57\MvcMovie57\bin\Debug\netcoreapp2.1\MvcMovie57.runtimeconfig.json
+C:\Github\CECS475\MvcMovie57\MvcMovie57\bin\Debug\netcoreapp2.1\MvcMovie57.runtimeconfig.dev.json
+C:\Github\CECS475\MvcMovie57\MvcMovie57\bin\Debug\netcoreapp2.1\MvcMovie57.dll
+C:\Github\CECS475\MvcMovie57\MvcMovie57\bin\Debug\netcoreapp2.1\MvcMovie57.pdb
+C:\Github\CECS475\MvcMovie57\MvcMovie57\bin\Debug\netcoreapp2.1\MvcMovie57.Views.dll
+C:\Github\CECS475\MvcMovie57\MvcMovie57\bin\Debug\netcoreapp2.1\MvcMovie57.Views.pdb
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.csprojAssemblyReference.cache
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.csproj.CoreCompileInputs.cache
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.RazorAssemblyInfo.cache
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.RazorAssemblyInfo.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.AssemblyInfoInputs.cache
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.AssemblyInfo.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.TagHelpers.input.cache
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.TagHelpers.output.cache
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.RazorCoreGenerate.cache
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\HelloWorld57\Index.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\HelloWorld57\Welcome57.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Movie57\Create.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Movie57\Delete.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Movie57\Details.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Movie57\Edit.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Movie57\Index.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.RazorTargetAssemblyInfo.cache
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.RazorTargetAssemblyInfo.cs
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.Views.pdb
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.dll
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.pdb
+C:\Github\CECS475\MvcMovie57\MvcMovie57\obj\Debug\netcoreapp2.1\MvcMovie57.csproj.CopyComplete
