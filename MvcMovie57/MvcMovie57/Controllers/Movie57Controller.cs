@@ -17,11 +17,77 @@ namespace MvcMovie57.Controllers
         {
             _context = context;
         }
-
+        /*
         // GET: Movie57
         public async Task<IActionResult> Index()
         {
             return View(await _context.Movie57.ToListAsync());
+        }*/
+
+        /*
+        //Example: https://localhost:44351/Movie57/Index/?searchString=Ghost
+        public async Task<IActionResult> Index(string searchString)
+        {
+            var movies = from m in _context.Movie57
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(s => s.Title57.Contains(searchString));
+            }
+
+            return View(await movies.ToListAsync());
+        }
+        */
+        /*
+        //Example: https://localhost:44351/Movie57/Index/ghost
+        public async Task<IActionResult> Index(string id)
+        {
+            var movies = from m in _context.Movie57
+                         select m;
+
+            if (!String.IsNullOrEmpty(id))
+            {
+                movies = movies.Where(s => s.Title57.Contains(id));
+            }
+
+            return View(await movies.ToListAsync());
+        }
+        */
+        // GET: Movies
+        public async Task<IActionResult> Index(string movieGenre57, string searchString57)
+        {
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery57 = from m in _context.Movie57
+                                            orderby m.Genre57
+                                            select m.Genre57;
+
+            var movies = from m in _context.Movie57
+                         select m;
+
+            if (!string.IsNullOrEmpty(searchString57))
+            {
+                movies = movies.Where(s => s.Title57.Contains(searchString57));
+            }
+
+            if (!string.IsNullOrEmpty(movieGenre57))
+            {
+                movies = movies.Where(x => x.Genre57 == movieGenre57);
+            }
+
+            var movieGenreVM = new MovieGenreViewModel57
+            {
+                Genres57 = new SelectList(await genreQuery57.Distinct().ToListAsync()),
+                Movies57 = await movies.ToListAsync()
+            };
+
+            return View(movieGenreVM);
+        }
+
+        [HttpPost]
+        public string Index(string searchString, bool notUsed)
+        {
+            return "From [HttpPost]Index: filter on " + searchString;
         }
 
         // GET: Movie57/Details/5
