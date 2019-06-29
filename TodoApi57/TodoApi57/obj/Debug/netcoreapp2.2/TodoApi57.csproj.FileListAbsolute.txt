@@ -1,0 +1,14 @@
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\bin\Debug\netcoreapp2.2\TodoApi57.deps.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\bin\Debug\netcoreapp2.2\TodoApi57.runtimeconfig.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\bin\Debug\netcoreapp2.2\TodoApi57.runtimeconfig.dev.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\bin\Debug\netcoreapp2.2\TodoApi57.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\bin\Debug\netcoreapp2.2\TodoApi57.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\obj\Debug\netcoreapp2.2\TodoApi57.csprojAssemblyReference.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\obj\Debug\netcoreapp2.2\TodoApi57.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\obj\Debug\netcoreapp2.2\TodoApi57.RazorAssemblyInfo.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\obj\Debug\netcoreapp2.2\TodoApi57.RazorAssemblyInfo.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\obj\Debug\netcoreapp2.2\TodoApi57.AssemblyInfoInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\obj\Debug\netcoreapp2.2\TodoApi57.AssemblyInfo.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\obj\Debug\netcoreapp2.2\TodoApi57.RazorTargetAssemblyInfo.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\obj\Debug\netcoreapp2.2\TodoApi57.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\TodoApi57\TodoApi57\obj\Debug\netcoreapp2.2\TodoApi57.pdb
