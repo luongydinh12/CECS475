@@ -1,0 +1,6 @@
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\MyCalculator57\MyCalculator57\bin\Debug\MyCalculator57.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\MyCalculator57\MyCalculator57\bin\Debug\MyCalculator57.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\MyCalculator57\MyCalculator57\obj\Debug\MyCalculator57.csprojAssemblyReference.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\MyCalculator57\MyCalculator57\obj\Debug\MyCalculator57.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\MyCalculator57\MyCalculator57\obj\Debug\MyCalculator57.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\MyCalculator57\MyCalculator57\obj\Debug\MyCalculator57.pdb
