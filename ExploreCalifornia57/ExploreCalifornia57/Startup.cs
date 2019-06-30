@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using ExploreCalifornia57.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ExploreCalifornia57
 {
@@ -24,6 +26,12 @@ namespace ExploreCalifornia57
         {
             services.AddTransient <FeatureToggles57>(x => new FeatureToggles57 {
             DeveloperExceptions57 = configuration57.GetValue<bool>("FeatureToggles57:DeveloperExceptions57")
+            });
+
+            services.AddDbContext<BlogDataContext>(options => 
+            {
+                var connectionString57 = configuration57.GetConnectionString("BlogDataContext");
+                options.UseSqlServer(connectionString57);
             });
 
             services.AddMvc();

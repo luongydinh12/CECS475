@@ -10,39 +10,24 @@ namespace ExploreCalifornia57.Controllers
     [Route("blog57")]
     public class Blog57Controller : Controller
     {
+        private readonly BlogDataContext _db57;
+
+        public Blog57Controller(BlogDataContext db57)
+        {
+            _db57 = db57;
+        }
+
         [Route("")]
         public IActionResult Index()
         {
-            var posts = new[]
-            {
-                new Post
-                {
-                    Title57 = "My blog post",
-                    Posted57 = DateTime.Now,
-                    Author57 = "Jess Chadwick",
-                    Body57 = "This is a great blog post, don't you think?",
-                },
-                new Post
-                {
-                    Title57 = "My second blog post",
-                    Posted57 = DateTime.Now,
-                    Author57 = "Jess Chadwick",
-                    Body57 = "This is ANOTHER great blog post, don't you think?",
-                },
-            };
-            return View(posts);
+            var posts57 = _db57.Posts57.OrderByDescending(x => x.Posted57).Take(5).ToArray();
+            return View(posts57);
         }
 
         [Route("{year:min(2000)}/{month:range(1,12)}/{key}")]
         public IActionResult Post(int year, int month, string key)
         {
-            var post = new Post
-            {
-                Title57 = "My Blog Post",
-                Posted57 = DateTime.Now,
-                Author57 = "Jess Chadwick",
-                Body57 = "This is a great blog post, don't you think?",
-            };
+            var post = _db57.Posts57.FirstOrDefault(x => x.Key57 == key);
             return View(post);
         }
 
@@ -54,13 +39,23 @@ namespace ExploreCalifornia57.Controllers
 
 
         [HttpPost, Route("create")]
-        public IActionResult Create(Post post)
+        public IActionResult Create(Post post57)
         {
-            post.Author57 = User.Identity.Name;
-            post.Posted57 = DateTime.Now;
+            if (!ModelState.IsValid)
+                return View();
 
+            post57.Author57 = User.Identity.Name;
+            post57.Posted57 = DateTime.Now;
 
-            return View();
+            _db57.Posts57.Add(post57);
+            _db57.SaveChanges();
+
+            return RedirectToAction("Post","Blog57", new
+            {
+                year = post57.Posted57.Year,
+                month = post57.Posted57.Month,
+                key = post57.Key57
+            });
         }
 
 

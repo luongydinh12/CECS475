@@ -13,7 +13,11 @@
     @foreach (var post in Model)
     {
         <article class="blog-post">
-            <h1>@post.Title57</h1>
+            <h1>
+            @Html.ActionLink(post.Title57, "Post", "Blog57",
+           new {year = post.Posted57.Year, month = post.Posted57.Month, key = post.Key57 }
+           )
+            </h1>
             <div class="details">
                 Posted <span>@post.Posted57</span> by <span>@post.Author57</span>
             </div>
