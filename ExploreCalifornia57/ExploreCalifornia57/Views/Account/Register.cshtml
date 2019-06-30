@@ -1,0 +1,38 @@
+﻿@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+@model ExploreCalifornia57.Models.Account.RegisterViewModel
+
+
+<fieldset class="account">
+
+    <h1>New User Registration</h1>
+
+    <br />
+
+    <form role="form" asp-action="Register">
+        <div asp-validation-summary="All" class="input-validation-error"></div>
+
+        <div class="form-group">
+            <label asp-for="EmailAddress57"></label>
+            <input type="email" asp-for="EmailAddress57" class="form-control" />
+            <span asp-validation-for="EmailAddress57" class="field-validation-error"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Password57"></label>
+            <input type="password" asp-for="Password57" class="form-control" />
+            <span asp-validation-for="Password57" class="field-validation-error"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ConfirmPassword57"></label>
+            <input type="password" asp-for="ConfirmPassword57" class="form-control" />
+            <span asp-validation-for="ConfirmPassword57" class="field-validation-error"></span>
+        </div>
+        <br />
+        <div>
+            <label>&nbsp;</label>
+            <button type="submit" class="btn btn-primary">Create new user</button>
+        </div>
+
+    </form>
+</fieldset>

@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using ExploreCalifornia57.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace ExploreCalifornia57
 {
@@ -35,6 +36,15 @@ namespace ExploreCalifornia57
                 var connectionString57 = configuration57.GetConnectionString("BlogDataContext");
                 options.UseSqlServer(connectionString57);
             });
+
+            services.AddDbContext<IdentityDataContext>(options =>
+            {
+                var connectionString57 = configuration57.GetConnectionString("IdentityDataContext");
+                options.UseSqlServer(connectionString57);
+            });
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<IdentityDataContext>();
 
             services.AddMvc();
         }
@@ -70,6 +80,8 @@ namespace ExploreCalifornia57
 
                 await next();
             });
+
+            app.UseIdentity();
 
             app.UseMvc(routes57 =>
             {
