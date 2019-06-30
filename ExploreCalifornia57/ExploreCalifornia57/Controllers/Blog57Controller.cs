@@ -18,10 +18,34 @@ namespace ExploreCalifornia57.Controllers
         }
 
         [Route("")]
-        public IActionResult Index()
+        /*public IActionResult Index()
         {
             var posts57 = _db57.Posts57.OrderByDescending(x => x.Posted57).Take(5).ToArray();
             return View(posts57);
+        }*/
+        public IActionResult Index(int page = 0)
+        {
+            var pageSize = 2;
+            var totalPosts = _db57.Posts57.Count();
+            var totalPages = totalPosts / pageSize;
+            var previousPage = page - 1;
+            var nextPage = page + 1;
+
+            ViewBag.PreviousPage = previousPage;
+            ViewBag.HasPreviousPage = previousPage >= 0;
+            ViewBag.NextPage = nextPage;
+            ViewBag.HasNextPage = nextPage < totalPages;
+
+            var posts =
+                _db57.Posts57
+                    .OrderByDescending(x => x.Posted57)
+                    .Skip(pageSize * page)
+                    .Take(pageSize)
+                    .ToArray();
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                return PartialView(posts);
+
+            return View(posts);
         }
 
         [Route("{year:min(2000)}/{month:range(1,12)}/{key}")]
