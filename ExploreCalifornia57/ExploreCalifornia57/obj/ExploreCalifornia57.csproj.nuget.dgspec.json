@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dinh Luong\\Downloads\\GitHub\\CECS475\\ExploreCalifornia57\\ExploreCalifornia57\\ExploreCalifornia57.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dinh Luong\\Downloads\\GitHub\\CECS475\\ExploreCalifornia57\\ExploreCalifornia57\\ExploreCalifornia57.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dinh Luong\\Downloads\\GitHub\\CECS475\\ExploreCalifornia57\\ExploreCalifornia57\\ExploreCalifornia57.csproj",
+        "projectName": "ExploreCalifornia57",
+        "projectPath": "C:\\Users\\Dinh Luong\\Downloads\\GitHub\\CECS475\\ExploreCalifornia57\\ExploreCalifornia57\\ExploreCalifornia57.csproj",
+        "packagesPath": "C:\\Users\\Dinh Luong\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dinh Luong\\Downloads\\GitHub\\CECS475\\ExploreCalifornia57\\ExploreCalifornia57\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dinh Luong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

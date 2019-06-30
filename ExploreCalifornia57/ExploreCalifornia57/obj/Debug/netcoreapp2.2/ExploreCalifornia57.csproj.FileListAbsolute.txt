@@ -1,0 +1,14 @@
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\bin\Debug\netcoreapp2.2\ExploreCalifornia57.deps.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\bin\Debug\netcoreapp2.2\ExploreCalifornia57.runtimeconfig.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\bin\Debug\netcoreapp2.2\ExploreCalifornia57.runtimeconfig.dev.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\bin\Debug\netcoreapp2.2\ExploreCalifornia57.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\bin\Debug\netcoreapp2.2\ExploreCalifornia57.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.csprojAssemblyReference.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.RazorAssemblyInfo.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.RazorAssemblyInfo.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.AssemblyInfoInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.AssemblyInfo.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.RazorTargetAssemblyInfo.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.pdb
