@@ -1,0 +1,17 @@
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\bin\Debug\netcoreapp2.2\Bank57Tests.deps.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\bin\Debug\netcoreapp2.2\Bank57Tests.runtimeconfig.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\bin\Debug\netcoreapp2.2\Bank57Tests.runtimeconfig.dev.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\bin\Debug\netcoreapp2.2\Bank57Tests.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\bin\Debug\netcoreapp2.2\Bank57Tests.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\bin\Debug\netcoreapp2.2\Bank57.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\bin\Debug\netcoreapp2.2\Bank57.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\obj\Debug\netcoreapp2.2\Bank57Tests.csprojAssemblyReference.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\obj\Debug\netcoreapp2.2\Bank57Tests.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\obj\Debug\netcoreapp2.2\Bank57Tests.AssemblyInfoInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\obj\Debug\netcoreapp2.2\Bank57Tests.AssemblyInfo.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\obj\Debug\netcoreapp2.2\Bank57Tests.csproj.CopyComplete
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\obj\Debug\netcoreapp2.2\Bank57Tests.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57Tests\obj\Debug\netcoreapp2.2\Bank57Tests.pdb

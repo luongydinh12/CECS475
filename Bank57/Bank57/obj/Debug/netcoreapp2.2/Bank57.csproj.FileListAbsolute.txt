@@ -1,0 +1,11 @@
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57\bin\Debug\netcoreapp2.2\Bank57.deps.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57\bin\Debug\netcoreapp2.2\Bank57.runtimeconfig.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57\bin\Debug\netcoreapp2.2\Bank57.runtimeconfig.dev.json
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57\bin\Debug\netcoreapp2.2\Bank57.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57\bin\Debug\netcoreapp2.2\Bank57.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57\obj\Debug\netcoreapp2.2\Bank57.csprojAssemblyReference.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57\obj\Debug\netcoreapp2.2\Bank57.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57\obj\Debug\netcoreapp2.2\Bank57.AssemblyInfoInputs.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57\obj\Debug\netcoreapp2.2\Bank57.AssemblyInfo.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57\obj\Debug\netcoreapp2.2\Bank57.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\Bank57\Bank57\obj\Debug\netcoreapp2.2\Bank57.pdb
