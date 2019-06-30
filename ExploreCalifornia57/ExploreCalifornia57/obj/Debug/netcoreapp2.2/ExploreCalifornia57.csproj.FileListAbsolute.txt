@@ -25,3 +25,5 @@ C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCaliforn
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\Razor\Views\Blog57\Post.g.cshtml.cs
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.csprojAssemblyReference.cache
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\Razor\Views\Blog57\Create.g.cshtml.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Post.g.cshtml.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\MonthlySpecials\Default.g.cshtml.cs

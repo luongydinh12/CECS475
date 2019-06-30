@@ -1,0 +1,18 @@
+﻿@inject ExploreCalifornia57.Models.FormattingService Format
+@model ExploreCalifornia57.Models.Post
+
+<article class="blog-post">
+    <h1>
+        @Html.ActionLink(Model.Title57, "Post", "Blog57",
+new {year = Model.Posted57.Year, month = Model.Posted57.Month, key = Model.Key57 })
+
+    </h1>
+    <div class="details">
+        Posted <span>@Format.AsReadableDate(Model.Posted57)</span> by <span>@Model.Author57</span>
+    </div>
+    <div class="content">
+        @Model.Body57
+    </div>
+</article>
+
+
