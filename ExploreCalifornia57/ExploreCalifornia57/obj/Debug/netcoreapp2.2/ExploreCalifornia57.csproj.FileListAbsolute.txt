@@ -3,7 +3,6 @@ C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCaliforn
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\bin\Debug\netcoreapp2.2\ExploreCalifornia57.runtimeconfig.dev.json
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\bin\Debug\netcoreapp2.2\ExploreCalifornia57.dll
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\bin\Debug\netcoreapp2.2\ExploreCalifornia57.pdb
-C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.csprojAssemblyReference.cache
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.csproj.CoreCompileInputs.cache
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.RazorAssemblyInfo.cache
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.RazorAssemblyInfo.cs
@@ -12,3 +11,17 @@ C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCaliforn
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.RazorTargetAssemblyInfo.cache
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.dll
 C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\bin\Debug\netcoreapp2.2\ExploreCalifornia57.Views.dll
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\bin\Debug\netcoreapp2.2\ExploreCalifornia57.Views.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.TagHelpers.input.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.TagHelpers.output.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.RazorCoreGenerate.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\Razor\Views\Home\index.g.cshtml.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.RazorTargetAssemblyInfo.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.Views.pdb
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.csproj.CopyComplete
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\Razor\Views\Blog57\Index.g.cshtml.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\Razor\Views\Blog57\Post.g.cshtml.cs
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\ExploreCalifornia57.csprojAssemblyReference.cache
+C:\Users\Dinh Luong\Downloads\GitHub\CECS475\ExploreCalifornia57\ExploreCalifornia57\obj\Debug\netcoreapp2.2\Razor\Views\Blog57\Create.g.cshtml.cs
